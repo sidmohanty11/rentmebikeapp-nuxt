@@ -1,22 +1,38 @@
 <template>
   <div>
-    <a-card hoverable style="width: 300px">
+    <a-card style="width: 300px">
       <img
         slot="cover"
-        alt="example"
-        src="https://imgd.aeplcdn.com/370x208/bw/models/jawa-perak-standard20191116153507.jpg?q=85"
+        alt="bikes"
+        :src="require(`@/assets/img/${card.image || 'b1.jpg'}`)"
       />
-      <a-card-meta title="Europe Street beat">
-        <template slot="description"> www.instagram.com </template>
+      <a-card-meta :title="card.title">
+        <template slot="description">{{ card.snippet || null }}</template>
       </a-card-meta>
+      <p class="price-tag">{{ card.price || null }}</p>
+      <nuxt-link :to="`/bike/${card.id}`">View More</nuxt-link>
     </a-card>
   </div>
 </template>
+
+<script>
+export default {
+  props: {
+    card: {
+      type: Object,
+      default: () => {}
+    }
+  }
+};
+</script>
 
 <style scoped>
 .ant-card {
   background-color: #f2f2f2;
   padding: 10px;
   border-color: black;
+}
+.price-tag {
+  color: red;
 }
 </style>

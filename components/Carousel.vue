@@ -30,25 +30,25 @@ export default {};
 
 .carousel-img-1 {
   height: calc(100vh - 20em);
-  background-image: url('https://images.hdqwalls.com/wallpapers/electric-bike-4k-b9.jpg');
+  background-image: url('~assets/img/3.jpg');
   background-size: cover;
 }
 
 .carousel-img-2 {
   height: calc(100vh - 20em);
-  background-image: url('https://wallpaperaccess.com/full/3460572.jpg');
+  background-image: url('~assets/img/2.jpg');
   background-size: cover;
 }
 
 .carousel-img-3 {
   height: calc(100vh - 20em);
-  background-image: url('https://images.wallpaperscraft.com/image/bmw_k100_motorcycle_bike_123991_3840x2400.jpg');
+  background-image: url('~assets/img/4.jpg');
   background-size: cover;
 }
 
 .carousel-img-4 {
   height: calc(100vh - 20em);
-  background-image: url('https://www.wallpapersshare.com/img/big/black-yamaha-mt-07-bike-4k-photo.jpg');
+  background-image: url('~assets/img/1.jpg');
   background-size: cover;
 }
 

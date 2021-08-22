@@ -11,8 +11,10 @@
         :default-selected-keys="['2']"
         :style="{ lineHeight: '64px' }"
       >
-        <a-menu-item key="1"> My Orders </a-menu-item>
-        <a-menu-item key="2"> Bikes </a-menu-item>
+        <a-menu-item key="1"
+          ><nuxt-link to="/myorders"> My Orders </nuxt-link></a-menu-item
+        >
+        <a-menu-item key="2"><nuxt-link to="/"> Bikes </nuxt-link></a-menu-item>
       </a-menu>
     </a-layout-header>
     <Nuxt />
