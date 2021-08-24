@@ -17,9 +17,7 @@
     </div>
   </a-carousel>
 </template>
-<script>
-export default {};
-</script>
+
 <style scoped>
 .ant-carousel >>> .slick-slide {
   text-align: center;

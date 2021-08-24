@@ -14,7 +14,7 @@
         {{ bike.description }}
       </p>
       <p class="price-tag">Price - Rs. {{ bike.price }}/day</p>
-      <rent-modal />
+      <rent-modal :id="bike.id" />
     </div>
   </div>
 </template>

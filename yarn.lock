@@ -2934,7 +2934,7 @@ core-js@^2.4.0, core-js@^2.6.5:
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-2.6.12.tgz#d9333dfa7b065e347cc5682219d6f690859cc2ec"
   integrity sha512-Kb2wC0fvsWfQrgk8HU5lW6U/Lcs8+9aaYcy4ZFc6DDlo4nZ7n70dEgE5rtR0oG6ufKDUnrwfWL1mXR5ljDatrQ==
 
-core-js@^3.15.1, core-js@^3.6.5:
+core-js@^3.15.1, core-js@^3.15.2, core-js@^3.6.5:
   version "3.16.2"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.16.2.tgz#3f485822889c7fc48ef463e35be5cc2a4a01a1f4"
   integrity sha512-P0KPukO6OjMpjBtHSceAZEWlDD1M2Cpzpg6dBbrjFqFhBHe/BwhxaP820xKOjRn/lZRQirrCusIpLS/n2sgXLQ==
@@ -3238,6 +3238,16 @@ cyclist@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/cyclist/-/cyclist-1.0.1.tgz#596e9698fd0c80e12038c2b82d6eb1b35b6224d9"
   integrity sha1-WW6WmP0MgOEgOMK4LW6xs1tiJNk=
+
+date-fns-tz@^1.1.4:
+  version "1.1.6"
+  resolved "https://registry.yarnpkg.com/date-fns-tz/-/date-fns-tz-1.1.6.tgz#93cbf354e2aeb2cd312ffa32e462c1943cf20a8e"
+  integrity sha512-nyy+URfFI3KUY7udEJozcoftju+KduaqkVfwyTIE0traBiVye09QnyWKLZK7drRr5h9B7sPJITmQnS3U6YOdQg==
+
+date-fns@^2.22.1:
+  version "2.23.0"
+  resolved "https://registry.yarnpkg.com/date-fns/-/date-fns-2.23.0.tgz#4e886c941659af0cf7b30fafdd1eaa37e88788a9"
+  integrity sha512-5ycpauovVyAk0kXNZz6ZoB9AYMZB4DObse7P3BPWmyEjXNORTI8EJ6X0uaSAq4sCHzM1uajzrkr6HnsLQpxGXA==
 
 de-indent@^1.0.2:
   version "1.0.2"
@@ -8896,6 +8906,16 @@ utils-merge@1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/utils-merge/-/utils-merge-1.0.1.tgz#9f95710f50a267947b2ccc124741c1028427e713"
   integrity sha1-n5VxD1CiZ5R7LMwSR0HBAoQn5xM=
+
+v-calendar@^2.3.2:
+  version "2.3.2"
+  resolved "https://registry.yarnpkg.com/v-calendar/-/v-calendar-2.3.2.tgz#bc45d1258001d6a061ad942eedacad39209604c1"
+  integrity sha512-F/gS1EiMUVf8yPPdUxvgPgq+rQ8cNlXoQHn0nzx36dHmyjd3SybPpzMnlQ9P4lzv8Fni1kSTvonDUS2gYYenkA==
+  dependencies:
+    core-js "^3.15.2"
+    date-fns "^2.22.1"
+    date-fns-tz "^1.1.4"
+    lodash "^4.17.21"
 
 v8-compile-cache@^2.0.3:
   version "2.3.0"
